@@ -138,7 +138,7 @@
 }
 .btn:hover,
 .btn-large:hover {
-  filter: brightness(95%);
+  filter: brightness(110%);
 }
 #cta {
   background-image: url(../img/cta-img.png);
