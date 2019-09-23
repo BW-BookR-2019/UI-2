@@ -8,7 +8,7 @@
         <title>Bookr - Don't Judge a Book by It's Cover</title>
 
         <!-- Materialize CSS -->
-        <link rel="stylesheet" href="css/materialize.min.css">
+        <link rel="stylesheet" href="css/materialize.css">
         <!-- Google Icons-->
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link rel="stylesheet" href="css/index.css">
@@ -17,29 +17,39 @@
     <body>
         <header>
             <div class="navbar-fixed">
-                <nav>
+                <nav class="p-grey">
                     <div class="nav-wrapper">
-                        <a href="#" class="brand-logo center"><i class="material-icons">import_contacts</i>Bookr</a>
-                        <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <a href="#" class="brand-logo center hide-on-small-only"><i class="material-icons">import_contacts</i>Bookr</a>
+                        <ul class="right hide-on-small-only">
                             <!--Link to front end site-->
                             <li><a href="#">Start Now!</a></li>
                             <li><a href="about.html">About</a></li>
                             <!--Stretch-->
                             <li><a href="#">Contact</a></li>
                         </ul>
+                        <!--Mobile View-->
+                        <a href="#" class="brand-logo right hide-on-med-and-up"><i class="material-icons">import_contacts</i>Bookr</a>
+                        <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                     </div>
                 </nav>
             </div>
+            <ul id="slide-out" class="sidenav">
+                <li><a href="#">First Link With Icon</a></li>
+                <li><a href="#">Second Link</a></li>
+                <li><a href="#!">Third Link With Waves</a></li>
+            </ul>
+            
         </header>
 
         <!-- <div class="container"> -->
             <section id='cta'>
                 <h3 class="white-text center">No more guesswork when buying textbooks.</h3>
-                <button class='btn-large'>Get Started</button>
+                <button class='btn-large red'>Get Started</button>
             </section>
         <!-- </div> -->
         <!-- Materialize JS -->
-        <script src="js/materialize.min.js"></script>
+        <script src="js/materialize.js"></script>
+        <script src="js/index.js"></script>
     </body>
 </html>
     
