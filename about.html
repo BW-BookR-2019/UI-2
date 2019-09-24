@@ -1,37 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
+        <!--Import Google Icon Font-->
+        <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="css/normalize.css">
+        <!--Import materialize.css-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+        <link rel="stylesheet" href="css/index.css">
+        <!--Let browser know website is optimized for mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <title>Bookr - About</title>
 
-        <!-- Materialize CSS -->
-        <link rel="stylesheet" href="css/materialize.css">
-        <!-- Google Icons-->
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <link rel="stylesheet" href="css/index.css">
     </head>
 
     <body>
-        <header>
-            <div class="navbar-fixed">
-                <nav>
-                    <div class="nav-wrapper p-blue">
-                        <a href="index.html" class="brand-logo center"><i class="material-icons">import_contacts</i>Bookr</a>
-                        <ul id="nav-mobile" class="right hide-on-med-and-down">
-                            <!--Link to front end site-->
-                            <li><a href="#">Start Now!</a></li>
-                            <li class='active'><a href="about.html">About</a></li>
-                            <!--Stretch-->
-                            <li><a href="#">Contact</a></li>
+        <!-- MOBILE COLLAPSE -->
+        <nav>
+            <div class="nav-wrapper p-blue-light-2">
+                <a href="#!" class="brand-logo"><img src="img/NavLogo.png" alt="Smiley face" style="height:62px"></a>
+                <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons medium">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="#"><i class="material-icons left">account_box</i>Login</a></li>
+                </ul>
+                <ul class="side-nav" id="mobile-demo">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="#"><i class="material-icons right">account_box</i>Login</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <section>
+            <div class="container">
+                <h1 class="center orange-text">About Us</h1>
+                <p class="center flow-text">Accelerates the book buying process with "YOU" in mind every step of the way. Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque sed veritatis aspernatur laborum qui quo quidem. Fugit provident consequatur maxime.</p>
+                <h1 class="center orange-text">Our Team</h1>
+                <div class="row center">
+                    <div class="col s4 offset-s4 card">
+                        <img class="responsive-img circle" style="padding-top:5%" src="img/hs-ballenger.png" alt="Nick Ballenger">
+                        <p class="flow-text">Nick Ballenger - Project Lead</p>
+                        <a class="right" href="https://github.com/Nick-Ballenger">
+                            <i title="Github" class="material-icons center">open_in_browser</i>
+                        </a>
+                    </div>
+                </div>
+                <div class="row center">
+                    <div class="col s4 offset-s1 card">
+                        <img class="responsive-img circle" style="padding-top:5%" src="img/hs-swinton.png" alt="Kimberly Swinton">
+                        <p class="flow-text">Kimberly Swinton - Backend</p>
+                        <a class="right" href="https://github.com/KSSwimmy">
+                            <i title="Github" class="material-icons center">open_in_browser</i>
+                        </a>
+                    </div>
+                    <div class="col s4 offset-s2 card">
+                        <img class="responsive-img circle" style="padding-top:5%" src="img/hs-brooks.png" alt="William Brooks">
+                        <p class="flow-text"> William Brooks - Backend</p>
+                        <a class="right" href="https://github.com/RealWillBrooks">
+                            <i title="Github" class="material-icons center">open_in_browser</i>
+                        </a>
+                    </div>
+                </div>
+                <div class="row center">
+                    <div class="col s4 offset-s1 card">
+                        <img class="responsive-img circle" style="padding-top:5%" src="img/hs-donnelly.png" alt="Allison Donnelly">
+                        <p class="flow-text">Allison Donnelly - Senior Frontend</p>
+                        <a class="right" href="https://github.com/allisonkydy">
+                            <i title="Github" class="material-icons center">open_in_browser</i>
+                        </a>
+                    </div>
+                    <div class="col s4 offset-s2 card">
+                        <img class="responsive-img circle" style="padding-top:5%" src="img/hs-kidrick.png" alt="Jamea Kidrick">
+                        <p class="flow-text">Jamea Kidrick - Frontend</p>
+                        <a class="right" href="https://github.com/JameaKidrick">
+                            <i title="Github" class="material-icons center">open_in_browser</i>
+                        </a>
+                    </div>
+                </div>
+                <div class="row center">
+                    
+                    <div class="col s4 offset-s1 card">
+                        <img class="responsive-img circle" style="padding-top:5%" src="img/hs-nguyen.png" alt="Kevin Nguyen">
+                        <p class="flow-text">Kevin Nguyen - Frontend</p>
+                        <a class="right" href="https://github.com/kevinnguyen805">
+                            <i title="Github" class="material-icons center">open_in_browser</i>
+                        </a>
+                    </div>
+                    <div class="col s4 offset-s2 card">
+                        <img class="responsive-img circle" style="padding-top:5%" src="img/hs-sutton.png" alt="Liam Sutton">
+                        <p class="flow-text">Liam Sutton - Frontend</p>
+                        <a class="right" href="https://github.com/curm90">
+                            <i title="Github" class="material-icons center">open_in_browser</i>
+                        </a>
+                    </div>
+                </div>
+                <div class="row center">
+                    <div class="col s4 offset-s1 card">
+                        <img class="responsive-img circle" style="padding-top:5%" src="img/hs-reber.png" alt="Logan Reber">  
+                        <p class="flow-text">Logan Reber - User Interface</p>
+                        <a class="right" href="https://github.com/LoganMReber">
+                            <i title="Github" class="material-icons center">open_in_browser</i>
+                        </a>
+                    </div>
+                    <div class="col s4 offset-s2 card">
+                        <img class="responsive-img circle" style="padding-top:5%" src="img/hs-cebenka.png" alt="Matthew Cebenka">
+                        <p class="flow-text">Matthew Cebenka - User Interface</p>
+                        <a class="right" href="https://github.com/MatthewCebenka">
+                            <i title="Github" class="material-icons center">open_in_browser</i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="page-footer blue">
+            <div class="container">
+                <div class="row center-align">
+                    <div class="col l6 s12">
+                        <h5 class="white-text">BOOKR</h5>
+                    </div>
+                    <div class="col l4 offset-l2 s12">
+                        <ul>
+                            <li><a class="grey-text text-lighten-3" href="#!">Home</a></li>
+                            <li><a class="grey-text text-lighten-3" href="#!">About</a></li>
+                            <li><a class="grey-text text-lighten-3" href="#!">Login</a></li>
                         </ul>
                     </div>
-                </nav>
+                </div>
             </div>
-        </header>
-        <!-- Materialize JS -->
-        <script src="js/materialize.js"></script>
+            <div class="footer-copyright">
+                <div class="container center-align">
+                    © 2019 BOOKR
+                </div>
+            </div>
+        </footer>
+        <!--Import jQuery before materialize.js-->
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+
+        <script>
+            $(".button-collapse").sideNav();
+        </script>
     </body>
 </html>
